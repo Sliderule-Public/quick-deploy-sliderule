@@ -21,4 +21,6 @@ resource "helm_release" "sliderule" {
     name  = "alb_sg_id"
     value = module.eks_load_balancer_security_group.security_group_id
   }
+
+  timeout = 1200
 }
