@@ -1,0 +1,7 @@
+region              = ""    # Your AWS region
+vpc_id              = ""    # The ID of the AWS VPC your EKS cluster is launched into
+public_subnet_ids   = []    # The IDs of the public subnets in your VPC
+root_domain         = ""    # The root domain of your DNS zone
+use_route53         = true  # Whether to use Route53 for DNS
+eks_cluster_name    = ""    # The name of your EKS cluster
+sliderule_namespace = ""    # The Kubernetes namespace to install Sliderule into
